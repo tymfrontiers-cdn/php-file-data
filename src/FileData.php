@@ -195,5 +195,71 @@ trait FileData{
     'application/font-woff2' => 'woff',
     'font/woff2' => 'woff2'
   ];
+  public $mime_group = [
+    'text/plain' => 'text-plain',
+    'text/html' => 'script',
+    'text/html' => 'script',
+    'text/x-php' => 'script',
+    'text/css' => 'script',
+    'application/javascript' => 'script',
+    'application/json' => 'script',
+    'application/xml' => 'script',
+    'application/x-shockwave-flash' => 'flash-video',
+    'video/x-flv' => 'flash-video',
+
+    // images
+    'image/png' => 'image',
+    'image/jpeg' => 'image',
+    'image/jpeg' => 'image',
+    'image/jpeg' => 'image',
+    'image/gif' => 'image',
+    'image/bmp' => 'image',
+    'image/vnd.microsoft.icon' => 'image',
+    'image/tiff' => 'image',
+    'image/tiff' => 'image',
+    'image/svg+xml' => 'image',
+    'image/svg+xml' => 'image',
+
+    // archives
+    'application/zip' => 'archive',
+    'application/x-rar-compressed' => 'archive',
+    'application/x-7z-compressed' => 'archive'	,
+    'application/x-msdownload' => 'archive',
+    'application/x-msdownload' => 'archive',
+    'application/vnd.ms-cab-compressed' => 'archive',
+
+    // audio/video
+    'audio/mpeg' => 'audio',
+    'video/quicktime' => 'video',
+    'video/quicktime' => 'video',
+    'video/mpeg' => 'video',
+
+    // adobe
+    'application/pdf' => 'document',
+    'image/vnd.adobe.photoshop' => 'adobe-psd',
+    'application/postscript' => 'adobe-ai',
+    'application/postscript' => 'adobe-eps',
+    'application/postscript' => 'adobe-ps',
+
+    // ms office
+    'application/msword' => 'document',
+    'application/vnd.openxmlformats-officedocument.wordprocessingml.document' => 'document',
+    'application/rtf' => 'document',
+    'application/vnd.ms-excel' => 'document',
+    'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet' => 'document',
+    'application/vnd.ms-powerpoint' => 'document',
+    'application/vnd.openxmlformats-officedocument.presentationml.presentation' => 'document',
+
+    // open office
+    'application/vnd.oasis.opendocument.text' => 'document',
+    'application/vnd.oasis.opendocument.spreadsheet' => 'document',
+    // fonts
+    'application/octet-stream' => 'font',
+    'application/octet-stream' => 'font',
+    'application/vnd.ms-fontobject' => 'font',
+    'application/font-woff' => 'font',
+    'application/font-woff2' => 'font',
+    'font/woff2' => 'font'
+  ];
 
 }
